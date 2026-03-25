@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#folders
+data/
+data/ml-lastest/
+
 # Distribution / packaging
 .Python
 build/
