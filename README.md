@@ -120,13 +120,4 @@ Example recommendations may include:
 - Tags are used because they provide richer semantic information than genres alone.
 - The current system is not personalized per user; it recommends movies based on similarity between movie content.
 
-## Future Improvements
-
-Possible future improvements:
-- rename `proccessing.py` to `preprocessing.py`
-- add user-based or collaborative filtering
-- include movie posters using `links.csv`
-- improve recommendation ranking with more filtering rules
-- deploy the Dash app online
-```
 
