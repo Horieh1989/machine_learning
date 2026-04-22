@@ -1,5 +1,20 @@
-numpy>=1.23.0
-pandas>=1.5.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-scikit-learn>=1.2.0
+# Core data science / ML
+numpy==2.3.5
+pandas==2.3.3
+matplotlib==3.10.7
+seaborn==0.13.2
+scipy==1.16.3
+scikit-learn==1.8.0
+
+# Lab 1 app
+dash==4.1.0
+
+# Lab 2 computer vision
+torch==2.11.0
+torchvision==0.26.0
+Pillow==12.1.1
+# Optional: torchcam 0.4.1 requires numpy<2.0, so keep it out of the base
+# environment while the rest of this project uses numpy 2.x.
+
+# Notebook workflow
+jupyterlab>=4.0.0
